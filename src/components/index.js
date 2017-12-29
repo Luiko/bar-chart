@@ -46,6 +46,14 @@ export default class App extends Component {
         .attr('height', d => yScale(d[1]))
         .attr('x', (d, i) => i * barWidth + marginLeft)
         .attr('y', d => (400 - marginY) - yScale(d[1]))
+        .on('mouseover', function () {
+          const rect = d3.select(this);
+          rect.style('fill', "#FFFF99");
+        })
+        .on('mouseleave', function () {
+          const rect = d3.select(this);
+          rect.style('fill', 'blue');
+        })
     ;
   }
 
