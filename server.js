@@ -4,7 +4,7 @@ require('dotenv').config();
 const app = express();
 const port = process.env.PORT || 8000;
 
-app.use(express.static('dist'));
+app.use(express.static('docs'));
 
 app.get('/', (req, res) => {
   res.status(200).sendFile('./index.html');

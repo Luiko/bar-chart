@@ -1,0 +1,23 @@
+body {
+  color: palevioletred;
+  margin: 0; }
+
+html {
+  background-color: #8f8;
+  font-size: 18px; }
+
+main {
+  width: fit-content;
+  width: -moz-fit-content;
+  width: -webkit-fit-content;
+  margin: 0 auto; }
+
+header, footer {
+  text-align: center; }
+
+main {
+  color: red; }
+  main p {
+    font-family: Courier New, Courier, monospace;
+    font-size: 1.2em;
+    color: palevioletred; }
