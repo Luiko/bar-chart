@@ -1,4 +1,4 @@
-#Visualize Data with a Bar Chart
+# Visualize Data with a Bar Chart
 
 1. Fulfill the below user stories. Use whichever libraries or APIs you need. Give it your own personal style.
 
